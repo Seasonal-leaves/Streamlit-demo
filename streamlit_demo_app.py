@@ -12,7 +12,7 @@ def main():
   if st.button("Which is the largest?"):
     #largest = find_largest(n1,n2,n3)
     max_num =  max(n1,n2,n3)
-    st.success("The largest number is :",max_num)
+    st.success(f"The largest number is : {max_num}")
 if __name__=="__main__":
   main()
     
